@@ -1,16 +1,13 @@
-l4-odbc-driver
-==============
-
-Laravel 4 ODBC 
+Laravel 5 ODBC
 
 Installation
 ============
 
-To Install this in your Laravel 4.1 app add
+To Install this in your Laravel 5.x app add
 
 ```json
 require {
-  "ccovey/odbc-driver-l4": "1.1.x"
+  "pa-m/odbc-driver": "master"
 }
 ```
 
