@@ -7,7 +7,7 @@ use Illuminate\Database\Schema\Grammars\Grammar;
 class ODBCDriverConnection extends Connection
 {
 	/**
-	 * @return Query\Grammars\Grammar
+	 * @return \Illuminate\Database\Query\Grammar
 	 */
 	protected function getDefaultQueryGrammar()
 	{
@@ -30,7 +30,7 @@ class ODBCDriverConnection extends Connection
 
 	/**
 	 * Default grammar for specified Schema
-	 * @return Schema\Grammars\Grammar
+	 * @return \Illuminate\Database\Schema\Grammar
 	 */
 	protected function getDefaultSchemaGrammar()
 	{
